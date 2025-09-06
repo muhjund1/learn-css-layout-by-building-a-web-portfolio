@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#proyek">Proyek</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Halo, Saya Muhammad Jundi Al-Aqsha</h1>
+            <p>Web Developer Pemula</p>
+        </div>
+    </header>
+
+    <section class="about-me" id="tentang">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+            <img src="DSCF4094.JPG" alt="FOTO PROFIL">
+            <div class="text-content">
+                <p>Saya adalah seorang pemula dalam web development yang sedang belajar HTML dan CSS.</p>
+                <h3>Keterampilan</h3>
+                <div class="skills">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Flexbox</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="proyek">
+        <h2>Proyek Saya</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="Screenshot 2025-09-06 134507.png" alt="Proyek Website Sekolah">
+                <h4>Website Sekolah</h4>
+                <p>Website informasi sekolah menggunakan HTML dan CSS.</p>
+            </div>
+            <div class="project-item">
+                <img src="Screenshot 2025-09-06 134514.png" alt="Proyek Form Registrasi">
+                <h4>Form Registrasi</h4>
+                <p>Formulir pendaftaran dengan validasi HTML5.</p>
+            </div>
+            <div class="project-item">
+                <img src="Screenshot 2025-09-06 134533.png" alt="Proyek Blog Pribadi">
+                <h4>Blog Pribadi</h4>
+                <p>Blog sederhana dengan layout Flexbox.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="kontak">
+        <h2>Hubungi Saya</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan"></textarea>
+            </div>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Portofolio Saya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
